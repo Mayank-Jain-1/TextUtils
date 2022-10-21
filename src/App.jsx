@@ -46,7 +46,7 @@ export const App = () => {
         <Alert alert = {alert}/>
 
          <Routes> 
-            <Route path='/' element={<TextArea showAlert = {showAlert} heading = "Enter our text to analyze below" mode = {mode}/>} />
+            <Route path='' element={<TextArea showAlert = {showAlert} heading = "Enter our text to analyze below" mode = {mode}/>} />
             <Route path="about" element={<h1>This is the about page </h1>}/>
          </Routes>
 
